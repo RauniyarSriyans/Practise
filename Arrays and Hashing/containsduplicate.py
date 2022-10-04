@@ -3,7 +3,7 @@
 
 # Example 1:
 def containsDuplicate(nums):
-    hashSet = set()
+    hashSet = set() # set cannot contain duplicates
     for item in nums:
         if item in hashSet:
             return True
