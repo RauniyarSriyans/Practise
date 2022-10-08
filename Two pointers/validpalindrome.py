@@ -46,4 +46,3 @@ def isPalindrome(s):
         rightPointer -= 1
     return True
 
-
